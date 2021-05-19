@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakuzu Tribute</title>
+    <link rel="stylesheet" href="kakuzu.css">
+    <script src="kakuzu_slide.js"></script>
+</head>
+
+<body>
+    <header class="kak-header">
+        <h1>Mr. Kakuzu</h1>
+        <h2>One of the best criminous in the history!</h2>
+        <img id="kakuzu_left" src="../images/kakuzu_header1.png" alt="Kakuzu Header 1">
+        <img id="akatsuki_left" src="../images/akatsuki_cloud.png" alt="Akatsuki Cloud 1">
+        <img id="kakuzu_right" src="../images/kakuzu_header2.png" alt="Kakuzu Header 2"> 
+        <img id="akatsuki_right" src="../images/akatsuki_cloud.png" alt="Akatsuki Cloud 2"> 
+    </header>
+
+    <div id="kak-section-aside">
+        <section class="kak-section">
+            <div id="slide-organization">
+
+                <div id="kak-container">
+
+                    <div class="kak-slides fade  first-slide">
+                        <div id="slide-number"> 1 / 8 </div>
+                        <img id="kakuzu_slide1" src="../images/kakuzu_slide1.png" alt="Main Kakuzu img">
+                    </div>
+
+                    <div class="kak-slides fade">
+                        <div id="slide-number"> 2 / 8 </div>
+                        <img id="kakuzu_slide2" src="../images/kakuzu_slide2.jpg" alt="Main Kakuzu img">
+                    </div>
+
+                    <div class="kak-slides fade">
+                        <div id="slide-number"> 3 / 8 </div>
+                        <img id="kakuzu_slide3" src="../images/kakuzu_slide3.jpg" alt="Main Kakuzu img">
+                    </div>
+
+                    <div class="kak-slides fade">
+                        <div id="slide-number"> 4 / 8 </div>
+                        <img id="kakuzu_slide4" src="../images/kakuzu_slide4.jpg" alt="Main Kakuzu img">
+                    </div>
+
+                    <div class="kak-slides fade">
+                        <div id="slide-number"> 5 / 8 </div>
+                        <img id="kakuzu_slide5" src="../images/kakuzu_slide5.jpg" alt="Main Kakuzu img">
+                    </div>
+
+                    <div class="kak-slides fade">
+                        <div id="slide-number"> 6 / 8 </div>
+                        <img id="kakuzu_slide6" src="../images/kakuzu_slide6.png" alt="Main Kakuzu img">
+                    </div>
+
+                    <div class="kak-slides fade">
+                        <div id="slide-number"> 7 / 8 </div>
+                        <img id="kakuzu_slide7" src="../images/kakuzu_slide7.png" alt="Main Kakuzu img">
+                    </div>
+
+                    <div class="kak-slides fade">
+                        <div id="slide-number"> 8 / 8 </div>
+                        <img id="kakuzu_slide8" src="../images/kakuzu_slide8.png" alt="Main Kakuzu img">
+                    </div>
+                    
+                    <a id="prev_slide" onclick="passSlide(-1)">&#10094;</a>
+                    <a id="next_slide" onclick="passSlide(1)">&#10095;</a>
+
+                </div>
+
+                <div class="dots-selection">
+                    <span class="dot" onclick="CurrentSlide(1)">
+                        <img src="../images/akatsuki_cloud.png" alt="Akatsuki Dot Slide">
+                    </span>
+                    <span class="dot" onclick="CurrentSlide(2)">
+                        <img src="../images/akatsuki_cloud.png" alt="Akatsuki Dot Slide">
+                    </span>
+                    <span class="dot" onclick="CurrentSlide(3)">
+                        <img src="../images/akatsuki_cloud.png" alt="Akatsuki Dot Slide">
+                    </span>
+                    <span class="dot" onclick="CurrentSlide(4)">
+                        <img src="../images/akatsuki_cloud.png" alt="Akatsuki Dot Slide">
+                    </span>
+                    <span class="dot" onclick="CurrentSlide(5)">
+                        <img src="../images/akatsuki_cloud.png" alt="Akatsuki Dot Slide">
+                    </span>
+                    <span class="dot" onclick="CurrentSlide(6)">
+                        <img src="../images/akatsuki_cloud.png" alt="Akatsuki Dot Slide">
+                    </span>
+                    <span class="dot" onclick="CurrentSlide(7)">
+                        <img src="../images/akatsuki_cloud.png" alt="Akatsuki Dot Slide">
+                    </span>
+                    <span class="dot" onclick="CurrentSlide(8)">
+                        <img src="../images/akatsuki_cloud.png" alt="Akatsuki Dot Slide">
+                    </span>
+                </div>
+            </div>
+        </section>
+        
+        <div id="partners-images">
+            <img class="bigImages" src="../images/hidan_expanded.jpg" alt="Hidan Expanded">
+            <img class="bigImages" src="../images/kakuzus_partner_expanded.png" alt="Kakuzu's Partners Expanded">
+            <img class="bigImages" src="../images/kisame_expanded.jpg" alt="Kisame Expanded">
+            <img class="bigImages" src="../images/pain_expanded.png" alt="Pain Expanded">
+            <img class="bigImages" src="../images/konan_expanded.jpg" alt="Konan Expanded">
+            <img class="bigImages" src="../images/tobi_expanded.jpg" alt="Tobi Expanded">
+            <img class="bigImages" src="../images/itachi_expanded.jpg" alt="Itachi Expanded">
+            <img class="bigImages" src="../images/orochimaru_expanded.jpg" alt="Orochimaru Expanded">
+            <img class="bigImages" src="../images/sasori_expanded.jpg" alt="Sasori Expanded">
+            <img class="bigImages" src="../images/zetsu_expanded.jpg" alt="Zetsu Expanded">
+            <img class="bigImages" src="../images/deidara_expanded.jpg" alt="Deidara Expanded">
+            <img class="bigImages"src="../images/juuzo_expanded.jpg" alt="Juuzo Expanded">
+            <button name="exit" id="exitButton" type="button">Exit</button>
+        </div>
+
+        <aside class="kak-aside">
+            <div class="menu-nav round-corners">
+                <div id="menu-h3-container">
+                    <h3>MENU</h3>
+                </div>
+                <div id="menu-list">
+                    <ul>
+                        <li><a href=kakuzu.html>Home</a></li>
+                        <li><a href=kak_history.html>History and Informations</a></li>
+                        <li><a href=kak_fights.html>Fights</a></li>
+                        <li><a href=kak_curiosities.html>Curiosities</a></li>
+                        <li><a href=kak_images.html>Images</a></li>
+                        <li><a href=kak_spy.html>Be a Kakuzu's Spy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="partners-nav round-corners">
+                <div id="partners-h3-container">
+                    <h3>PARTNERS</h3>
+                </div>
+                <div id="partners-list">
+                    <ul>
+                        <li id="eXpand0">Hidan</li>
+                        <li id="eXpand1">Dead Man</li>
+                        <li id="eXpand2">Kisame Hoshigaki</li>
+                        <li id="eXpand3">Pain</li>
+                        <li id="eXpand4">Konan</li>
+                        <li id="eXpand5">Tobi</li>
+                        <li id="eXpand6">Itachi Uchiha</li>
+                        <li id="eXpand7">Orochimaru</li>
+                        <li id="eXpand8">Sasori</li>
+                        <li id="eXpand9">Zetsu</li>
+                        <li id="eXpand10">Deidara</li>
+                        <li id="eXpand11">Juuzo</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <footer class="round-corners">
+        <div id="container-footer">
+            <div class="copyright">
+                © Kakuzu Company Copyright
+            </div>
+            <div class="copyright">
+                Developed by: Gabriel Medeiros
+            </div>
+            <div id="footer-aside">
+                <ul id="footer-list">
+                    <li><a href=kakuzu.html>Home</a></li>
+                    <li><a href=kak_history.html>History and Informations</a></li>
+                    <li><a href=kak_fights.html>Fights</a></li>
+                    <li><a href=kak_curiosities.html>Curiosities</a></li>
+                    <li><a href=kak_images.html>Images</a></li>
+                    <li><a href=kak_spy.html>Be a Kakuzu's Spy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="kakuzu_expand.js"></script>
+</body>
+</html>

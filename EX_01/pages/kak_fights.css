@@ -1,0 +1,249 @@
+*
+{
+    color: white;
+    font-family: sans-serif;
+}
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background:url(../images/akatsuki_background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.kak-header
+{
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    height: 210px;
+    border: 1px solid red;
+    margin-bottom: 5px;
+}
+
+h1
+{
+    color: white;
+    font-family: sans-serif;
+    margin: 86.5px 0px 0px 557px;
+    clear: both;
+    width: 219px;
+}
+
+#kakuzu_left
+{
+    height:200px;
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+#fight_left
+{
+    height: 100px;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    margin-top: 55px;
+}
+
+#kakuzu_right
+{
+    height:200px;
+    float: right;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+#fight_right
+{
+    height: 100px;
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 300px;
+    margin-top: 55px;
+}
+
+section
+{
+    height: auto;
+    width: 100%;
+    float: left;
+    margin-bottom: 60px;
+}
+
+.inner-container
+{
+    height: auto;
+    width: auto;
+}
+
+.container-fights
+{
+    width: 100%;
+    margin: 10px auto 10px 5px;
+    text-align: center;
+    height: 100px;
+}
+
+.aside-fight
+{
+    width: 85%;
+    background-color: rgb(10, 10, 10);
+    border: 1px solid red;
+    float: left;
+}
+
+.home-image img
+{
+    height: 80px;
+    width: 90px;
+    float: left;
+    margin: 10px auto auto 15px;
+}
+
+.home-name
+{
+    float: left;
+    font-size: 26px;
+    margin: 37px auto auto 150px;
+}
+
+.versus-test
+{
+    display: inline-block;
+    position: absolute;
+    right: 747.3px;
+}
+
+.versus
+{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 0px;
+    margin: 16px 10px auto 10px;
+    display: inline-block;
+    height: auto;
+}
+
+.visitor-image
+{
+    height: 80px;
+    width: 90px;
+    margin: 10px 15px auto auto;
+    float: right;
+}
+
+.visitor-name
+{
+    float: right;
+    font-size: 26px;
+    margin: 37px 150px auto auto;
+}
+
+.fights-video
+{
+    text-align:center;
+    padding-top: 81px;
+}
+
+.aside-winner
+{
+    background-color: rgb(10, 10, 10);
+    border: 1px solid red;
+    float: right;
+    width: 10%;
+    margin: auto 10px auto auto;
+    height: 101px;
+}
+
+.aside-title
+{
+    margin: 5px auto 5px auto;
+}
+
+.aside-photo
+{
+    height: 60px;
+    width: 70px;
+}
+
+footer
+{
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    clear: both;
+}
+
+#container-footer
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/kakuzu_chibi.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50px 70px;
+}
+
+.copyright
+{
+    position: relative;
+    height: 50%;
+    top: 15px;
+}
+
+#footer-aside
+{
+    position: relative;
+    float: right;
+    clear: both;
+    bottom: 100px;
+    right: 30px;
+    font-size: 12px;
+}
+
+#footer-list
+{
+    list-style-type: none;
+    text-decoration: underline;
+    margin: 8px auto;
+}
+
+#back-button
+{
+    height: 25px;
+    width: 75px;
+    top: 20px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#back-button a
+{
+    position: relative;
+    text-decoration: none;
+    top: 4px;
+}
+
+#back-button:hover
+{
+    background-color: lightgray;
+}

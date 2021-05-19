@@ -1,0 +1,12 @@
+*
+{
+    color: white;
+    font-family: sans-serif;
+}
+
+body
+{
+    background:url(../images/akatsuki_background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
