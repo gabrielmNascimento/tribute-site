@@ -10,3 +10,54 @@ body
     background-size: cover;
     background-attachment: fixed;
 }
+
+.kak-header
+{
+    background-color: black;
+    border: 2px solid red;
+    height: 200px;
+}
+
+#kak-title
+{
+    display: inline-block;
+    text-align: center;
+    margin: 81.5px auto auto 172.469px;
+}
+
+#kakuzu_left
+{
+    width: 200px;
+    float: left;
+}
+
+#mark_left
+{
+    margin: 50px auto auto 50px;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+#kakuzu_right
+{
+    margin-top: 10px;
+    width: 220px;
+    float: right;
+}
+
+#mark_right
+{
+    margin: 50px 50px auto auto;
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+
+.curiosities-elements
+{
+    background-color: black;
+    border: 1px solid red;
+    margin: 15px;
+    text-align: center;
+}
